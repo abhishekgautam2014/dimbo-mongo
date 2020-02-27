@@ -1,0 +1,34 @@
+{
+    "name": "dimbo-mongo",
+    "version": "1.0.6",
+    "description": "A Command Line tool to create your Express API Project.",
+    "main": "cli.js",
+    "bin": {
+        "mdimbo": "cli.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "crud",
+        "project setup",
+        "command line setup",
+        "mongo crud",
+        "api builder",
+        "api boilerplate",
+        "builder",
+        "crudbuilder"
+    ],
+    "author": "Abhishek Gautam",
+    "license": "ISC",
+    "dependencies": {
+        "@adonisjs/ace": "^5.0.8",
+        "chalk": "^3.0.0",
+        "const": "^1.0.0",
+        "execa": "^4.0.0",
+        "insert-line": "^1.1.0",
+        "listr": "^0.14.3",
+        "make-dir": "^3.0.2",
+        "ora": "^4.0.3"
+    }
+}
